@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/* current */
+
+#header .nav .menu .menu-greeting a {
+    color: #f2b23d;
+    border-bottom: 2px solid #f2b23d;
+    padding: 0 0 6px;
+}
+
+.sash {
+    background: url(../img/sash_greeting.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.greeting .wrap {
+    box-sizing: border-box;
+    padding: 70px 20px;
+}
+
+.greeting h3 {
+    font-size: 3.0rem;
+    line-height: 1.3;
+    font-weight: bold;
+    margin: 0 0 40px 0;
+}
+
+.greeting p {
+    margin: 0 0 20px 0;
+}
+
+.greeting .x2 {
+    margin-top: 70px;
+}
+
+.greeting .big {
+    font-size: 3.0rem;
+    line-height: 1.3;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+.greeting .bold {
+    font-weight: bold;
+}
+
+.greeting .img {
+    float: right;
+    margin-top: -160px;
+}
+
+.greeting .profile {
+    float: right;
+}
+
+.greeting .profile p {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .greeting .wrap {
+        padding: 5% 0;
+    }
+    .greeting h3 {
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin: 0 0 4% 0;
+    }
+    .greeting p {
+        margin: 0 0 3% 0;
+    }
+    .greeting p br {
+        display: none;
+    }
+    .greeting .x2 {
+        margin-top: 7%;
+    }
+    .greeting .img {
+        display: block;
+        float: none;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .greeting .profile {
+        float: none;
+        width: 100%;
+        margin: 0 0 7% 0;
+    }
+    .greeting .profile img {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .greeting .profile p {
+        font-size: 1.4rem;
+        line-height: 1.4;
+        margin: 3% 3% 0;
+    }
+    .greeting .profile p br {
+        display: block;
+    }
+    .greeting .big {
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin: 4% 0;
+    }
+}

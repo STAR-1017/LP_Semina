@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/* current */
+
+#header .nav .menu .menu-flow a {
+    color: #f2b23d;
+    border-bottom: 2px solid #f2b23d;
+    padding: 0 0 6px;
+}
+
+.sash {
+    background: url(../img/sash_flow.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.flow {
+    padding-bottom: 80px;
+}
+
+.caption {
+    font-size: 1.6rem;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.step {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f2b23d;
+    line-height: 1.0;
+    margin: 0 0 10px 0;
+}
+
+.block {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.block p a {
+    text-decoration: underline;
+    color: #3366cc;
+}
+
+.block p a:hover {
+    text-decoration: none;
+}
+
+.gray {
+    background: #fafafa;
+    padding: 35px 0;
+}
+
+.wh {
+    padding: 35px 0 50px;
+}
+
+.block .img {
+    float: right;
+    margin-top: 65px;
+}
+
+.block .des {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.caption+.gray .block .img {
+    margin-top: 0;
+}
+
+.block p+p {
+    margin-top: 20px;
+}
+
+.block h3 {
+    position: relative;
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 0 0 12px;
+    margin: 0 0 30px 0;
+}
+
+.block h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 56px;
+    height: 3px;
+    background: #f2b23d;
+}
+
+.block .box {
+    float: left;
+    width: 640px;
+}
+
+@media screen and (max-width: 768px) {
+    .caption {
+        font-size: 1.2rem;
+        width: auto;
+        padding: 4%;
+    }
+    .flow {
+        padding-bottom: 7%;
+    }
+    .step {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    .block {
+        width: auto;
+        margin: 0 auto;
+        padding: 0 3%;
+    }
+    .block .img {
+        float: none;
+        margin: 0;
+    }
+    .block .des {
+        font-size: 1.4rem;
+    }
+    .block .des br {
+        display: none;
+    }
+    .block p+p {
+        margin-top: 3%;
+    }
+    .block h3 {
+        position: relative;
+        font-size: 1.6rem;
+        font-weight: bold;
+        padding: 0 0 8px;
+        margin: 3% 0 4% 0;
+    }
+    .block h3::after {
+        width: 30px;
+        height: 2px;
+    }
+    .block .box {
+        float: none;
+        width: auto;
+        margin: 0 0 4% 0;
+    }
+    .gray,
+    .wh {
+        padding: 7% 0;
+    }
+}

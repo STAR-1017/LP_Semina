@@ -1,0 +1,319 @@
+@font-face {
+  font-family: 'din-ita';
+  src:url('fonts/DIN-REGULARITALIC.OTF') format('opentype');
+}
+.contact_sub_desc{
+    font-size: 14px;
+    line-height: 1.6;
+}
+main.addResult.top{
+    margin: 0 calc(50% - 50vw);
+    width: 99.5vw;
+}
+.addResult{
+    background-color: #EEEEEE;
+}
+.addResult .container {
+    width: 100%;
+    max-width: 1020px;
+}
+.oneResult{
+    background-color: #fff;
+    position: relative;
+    padding: 69px 52px 10px;
+    margin-bottom: 68px;
+}
+.oneResultDesc{
+  font-family: 'din-ita';
+    font-size: 70px;
+    position: absolute;
+    left: 45px;
+    top: -37px;
+}
+.oneResultDesc span{
+    color: #ff0012;
+}
+.oneResult_title p{
+    font-family: UD Shin Go DemiBold;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 18px;
+    text-align: left;
+    display: inline-block;
+    border-radius: 20px;
+}
+.oneResult_title h2{
+    font-family: UD Shin Go DemiBold;
+    font-size: 30px;
+    padding: 5px 15px 1px;
+    text-align: left;
+    border-left: 10px solid #ff0012;
+    line-height: 1.4;
+    display: block;
+    margin: 20px 0 35px;
+}
+.oneResult_title h2 span{
+    font-family: UD Shin Go Bold;
+    font-size: 42px;
+    color: #ff0012;
+}
+.oneResult_img{
+    float: right;
+    margin: 0 0 70px 30px;
+}
+.oneResult_tx h3{
+    font-family: UD Shin Go DemiBold;
+    font-size: 20px;
+    margin: 0 0 1em;
+}
+.oneResult_tx p{
+    font-size: 17px;
+    line-height: 2.1;
+    margin: 0 0 30px;
+}
+.oneResult_tx p span{
+    font-size: 19px;
+    line-height: 2.1;
+    font-family: UD Shin Go Bold;
+    margin: 15px auto 15px;
+    display: block;
+    color: #ff0012;
+}
+.restApi-news h2{
+	background-color: #ff0012;
+	color: #fff;
+	font-size: 27px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+    padding: 11px 15px;
+    font-family: UD Shin Go DemiBold;
+}
+#newslist .grid-index{
+    padding: 0 0 33px;
+    margin: 33px 0;
+    border-bottom: 1px solid #DBDCDC;
+    width: 50%;
+}
+#newslist{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.grid-index .item .image{
+    height: 100px;
+    width: 150px;
+    overflow: hidden;
+}
+.grid-index .item .image img{
+    object-position: center;
+    object-fit: cover;
+    height: 100px;
+    width: 150px;
+}
+.blog-detail{
+	max-width: 245px;
+	width: 100%;
+}
+.singleblogIcon{
+	width: 33px;
+	text-align: center;
+    margin: 40px 0 0 0;
+    padding: 0 15px 0 0;
+}
+.grid-index .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.blog-detail .title{
+	font-size: 16px;
+	text-align: left;
+	line-height: 1.56;
+}
+.blog-detail .titleset{
+    height: 72px;
+    overflow: hidden;
+}
+.date-cat{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    margin: 5px 0;
+
+}
+.date-cat .date{
+	font-size: 13px;
+	color: #666464;
+}
+.date-cat .category{
+	font-size: 13px;
+	border:0.5px solid #666464;
+	background-color: #F6F7F7; 
+	color: #666464;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.topResult_intro {
+    margin-top: 35px;
+}
+#wrap .main_inner {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.form-complete .form_intro {
+    text-align: center;
+}
+@media screen and (max-width:737px){
+	.contact_sub_desc{
+    font-size: 2.9vw;
+    line-height: 1.6;
+}
+.h-tell{
+    width: 31vw;
+    margin: 2vw 0 0;
+}
+#newslist{
+	flex-direction: column;
+}
+#newslist .grid-index {
+    padding: 0 0 5vw;
+    margin: 3vw 0;
+    border-bottom: 1px solid #DBDCDC;
+    width: 100%;
+}
+.blog-detail .title {
+    font-size: 3.33vw;
+    text-align: left;
+    line-height: 1.56;
+}
+.blog-detail {
+    max-width: 52vw;
+    width: 100%;
+}
+.grid-index .item .image {
+    height: 22vw;
+    width: 32vw;
+    overflow: hidden;
+}
+.grid-index .item .image img {
+    object-position: center;
+    object-fit: cover;
+    height: 22vw;
+    width: 32vw;
+    align-self: flex-start;
+}
+.blog-detail {
+    max-width: 52vw;
+    width: 100%;
+}
+.date-cat .category {
+    font-size: 2.6vw;
+    border: 0.5px solid #666464;
+    background-color: #F6F7F7;
+    color: #666464;
+    padding: 1vw 1vw;
+    border-radius: 5px;
+}
+.date-cat .date {
+    font-size: 2.6vw;
+    color: #666464;
+}
+.blog-detail .titleset {
+    height: 15.4vw;
+    overflow: hidden;
+}
+.restApi-news h2 img{
+    width: 24vw;
+}
+.restApi-news h2 {
+    background-color: #ff0012;
+    color: #fff;
+    font-size: 4.4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2.2vw 15px;
+    margin: 0 0 3vw 0;
+}
+.restApi-news{
+    margin: 0 0 5vw 0;
+}
+.singleblogIcon {
+    width: 3vw;
+    text-align: left;
+    margin: 8vw 0 0 0;
+    padding: 0;
+}
+.oneResult {
+    background-color: #fff;
+    position: relative;
+    padding: 10vw 5vw 2vw;
+    margin-bottom: 68px;
+    max-width: 96%;
+    margin: 0 auto 15vw;
+}
+.oneResultDesc {
+  font-family: 'din-ita';
+    font-size: 10vw;
+    position: absolute;
+    left: 3vw;
+    top: -5vw;
+}
+.oneResult_title p {
+    font-family: UD Shin Go DemiBold;
+    font-size: 2.82vw;
+    background-color: #000;
+    color: #fff;
+    padding: 2vw 3vw;
+    text-align: left;
+    display: inline-block;
+    border-radius: 4vw;
+}
+.oneResult_title h2 {
+    font-family: UD Shin Go DemiBold;
+    font-size: 3.23vw;
+    padding: 1vw 3vw 1vw;
+    text-align: left;
+    border-left: 1vw solid #ff0012;
+    line-height: 1.4;
+    display: block;
+    margin: 5vw auto;
+}
+.oneResult_title h2 span {
+    font-family: UD Shin Go Bold;
+    font-size: 4.2vw;
+    color: #ff0012;
+}
+.oneResult_img {
+    float: right;
+    margin: 0 0 2vw 2vw;
+    width: 40%;
+}
+.oneResult_tx h3 {
+    font-family: UD Shin Go DemiBold;
+    font-size: 4.2vw;
+    margin: 0 0 1em;
+}
+.oneResult_tx p {
+    font-size: 2.8vw;
+    line-height: 2.1;
+    margin: 0 0 5vw;
+}
+.oneResult_tx p span {
+    font-size: 3.2vw;
+    line-height: 1.4;
+    font-family: UD Shin Go Bold;
+    margin: 2vw auto 2vw;
+    display: block;
+    color: #ff0012;
+}
+.addResult .main_inner{
+    padding: 0;
+}
+}
